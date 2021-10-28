@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	height: 100vh;
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+header {
+	height: 20vh;
+	display: flex;
+	color: white;
+	background: linear-gradient(to right, red, black);
+}
+
+.header-left {
+	width: 35%;
+	height: 100%;
+	padding: 2rem;
+	padding-left: 2rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.header-left > h1 {
+	margin: 0;
+	margin-bottom: 2rem;
+}
+
+
+.header-right {
+	width: 65%;
+	height: 100%;
+	
+	padding: 1rem;
+	padding-left: 8rem;
+}
+
+.header-right > div {
+	display: flex;
+	font-size: 1rem;
+}
+
+.header-right > div > p:first-child {
+	text-align: left;
+	margin: .2rem 3rem;
+	width: 15%;
+
+}
+
+.header-right > div > p:last-child {
+	text-align: right;
+	margin: .2rem 0;
+}
+
+.mixed-text {
+	display: flex;
+	flex-direction: row;
+}
+
+.h1-text {
+
+}
+
+#about {
+	height: 20vh;
+}
+
+#skills {
+	
+}
+
+#experience {
+	
+}
+
+#education {
+	
+}
+
